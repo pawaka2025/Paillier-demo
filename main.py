@@ -69,7 +69,7 @@ def prime(bits: int) -> int:
     """
     while True:
         prime = random_odd_int(bits)
-        if MillerRobin_primality(prime):
+        if MillerRabin_primality(prime):
             return prime
 
 # 2. Derive parameters for Paillier
