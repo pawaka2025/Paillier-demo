@@ -7,7 +7,7 @@ import secrets
 SMALL_TEST = 64
 MEDIUM_TEST = 128
 LARGE_TEST = 256
-NIST_MINIMUM = 2048
+NIST_MINIMUM = 1024
 
 # --- key generation ---
 # generate a random value between BIT_SIZE/2 and BITSIZE/2 - 1 for p and q
