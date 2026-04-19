@@ -118,7 +118,7 @@ def generate_Paillier_parameters(bits):
 # 3. Package the messages if they get too big for n's capacity (TODO)
 
 def pack(value):
-  print("TODO: 'pack' function")
+  pass
 
 # 4. Encryption, decryption and homomorphic operations
 
