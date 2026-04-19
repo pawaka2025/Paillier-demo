@@ -24,7 +24,7 @@ def random_odd_int(bits):
     return x
 
 # true if number is prime, false if not.
-def MillerRobin_primality(n):
+def MillerRabin_primality(n):
     rounds = 40
 
     if n < 2:
@@ -160,7 +160,7 @@ p, q, n, n_sq, g, lam_val, mu_val = generate_Paillier_parameters(SMALL_TEST)
 control_solution = (m1 + m2 + m3) * s
 
 #5.2 Paillier
-value = (m1 + m2 + m3) / s
+value = (m1 + m2 + m3) * s
 if value > n:
     pack(value)
 
